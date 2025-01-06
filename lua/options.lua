@@ -1,3 +1,6 @@
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 vim.opt.number = true -- enable line numbers
 vim.opt.relativenumber = true -- enable relative line numbers
 vim.opt.termguicolors = true -- required by bufferline, as it reads the hex gui color values of various highlight groups
