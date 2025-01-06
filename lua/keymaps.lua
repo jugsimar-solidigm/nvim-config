@@ -1,3 +1,9 @@
+--[[
+	@file keymaps.lua
+	@brief Neovim system wide keymaps. All keymaps here should not depend
+ 		   on any plugins.
+--]]
+
 -- set spacebar as leader key
 vim.g.mapleader = " "
 
