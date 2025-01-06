@@ -45,6 +45,11 @@ require("lazy").setup({
 			dependencies = "nvim-tree/nvim-web-devicons",
 		},
 		{
+			"ThePrimeagen/harpoon",
+			branch = "harpoon2",
+			dependencies = { "nvim-lua/plenary.nvim" },
+		},
+		{
 			"nvim-treesitter/nvim-treesitter",
 			build = ":TSUpdate",
 			config = function()
