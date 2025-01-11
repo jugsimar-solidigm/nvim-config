@@ -1,5 +1,3 @@
 require("remap")
 require("options")
 require("lazy_init")
--- require("plugins.keymaps")
--- require("plugins.options")
