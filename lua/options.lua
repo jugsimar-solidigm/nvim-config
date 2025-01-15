@@ -11,3 +11,12 @@ vim.opt.tabstop = 4
 -- in linux, unnamedplus points to the system clipboard which allows yanking and
 -- pasting from other programs
 vim.opt.clipboard = "unnamedplus"
+
+-- Highlight when yanking (copying) text
+vim.api.nvim_create_autocmd("TextYankPost", {
+	desc = "Highlight when yanking text",
+	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
+	callback = function()
+		vim.highlight.on_yank()
+	end,
+})

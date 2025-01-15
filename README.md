@@ -10,5 +10,13 @@ wget -P ~/.local/share/fonts/ https://github.com/ryanoasis/nerd-fonts/releases/d
 && cd ~/.local/share/fonts/ \
 && unzip RobotoMono.zip \
 && rm RobotoMono.zip \
-&& fc-cache -fv
+&& fc-cache -fv \
+&& cd -
 ```
+
+# nvim-tree tips
+1. <C-T> points tree to parent dir
+2. <C-]> points tree to child dir
+
+# LSP tips
+1. When running python venv, make sure to run venv first before running nvim.
