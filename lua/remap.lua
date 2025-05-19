@@ -10,10 +10,10 @@ vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 -- Terminal open bindings
 vim.api.nvim_create_autocmd("TermOpen", {
-        group = vim.api.nvim_create_augroup("custom-term-open", { clear = true }),
-        callback = function()
-                -- disable number at terminal ... not to make it awkward
-                vim.opt.number = false
-                vim.opt.relativenumber = false
-        end,
+  group = vim.api.nvim_create_augroup("custom-term-open", { clear = true }),
+  callback = function()
+    -- disable number at terminal ... not to make it awkward
+    vim.opt.number = false
+    vim.opt.relativenumber = false
+  end,
 })
