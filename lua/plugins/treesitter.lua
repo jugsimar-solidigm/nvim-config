@@ -8,12 +8,14 @@ return {
         "vimdoc",
         "javascript",
         "typescript",
+		"jsdoc",
         "c",
         "lua",
         "rust",
         "jsdoc",
         "bash",
         "python",
+		"markdown",
       },
 
       -- Install parsers synchronously (only applied to `ensure_installed`)
